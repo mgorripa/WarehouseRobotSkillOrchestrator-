@@ -1,0 +1,44 @@
+{
+  "scenario": "Warehouse pick-place: obstacles + transient actuator faults",
+  "result": "PASS",
+  "successes": 2,
+  "failures": 0,
+  "completion_rate": 1.0,
+  "total_ticks": 33,
+  "mean_mission_ticks": 16.5,
+  "p95_mission_ticks": 21,
+  "counters": {
+    "robot_steps": 32,
+    "replans": 1,
+    "retries": 3,
+    "faults_injected": 3,
+    "timeouts": 0,
+    "safety_stops": 0
+  },
+  "missions": [
+    {
+      "mission": "order-001",
+      "status": "SUCCESS",
+      "start_tick": 1,
+      "end_tick": 12,
+      "duration_ticks": 12,
+      "reason": null
+    },
+    {
+      "mission": "order-002",
+      "status": "SUCCESS",
+      "start_tick": 13,
+      "end_tick": 33,
+      "duration_ticks": 21,
+      "reason": null
+    }
+  ],
+  "final_robot_state": {
+    "location": [
+      10,
+      5
+    ],
+    "battery": 68,
+    "carrying": null
+  }
+}

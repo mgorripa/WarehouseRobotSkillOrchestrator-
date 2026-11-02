@@ -1,0 +1,75 @@
+{"current": "EXECUTING", "event": "MISSION_PHASE", "mission": "order-001", "previous": "PENDING", "reason": "mission dispatched", "tick": 0}
+{"dropoff": [9, 1], "event": "MISSION_START", "mission": "order-001", "object_id": "box-A", "pickup": [3, 1], "tick": 0}
+{"action": "navigate_pickup", "event": "SKILL_START", "mission": "order-001", "target": [3, 1], "tick": 1}
+{"action": "navigate_pickup", "battery": 99, "event": "NAV_STEP", "location": [1, 1], "mission": "order-001", "tick": 1}
+{"event": "OBSTACLE_UPDATE", "mission": "order-001", "new_blocks": [[2, 1]], "tick": 2}
+{"action": "navigate_pickup", "event": "ROUTE_REPLAN", "mission": "order-001", "tick": 2}
+{"action": "navigate_pickup", "battery": 98, "event": "NAV_STEP", "location": [1, 0], "mission": "order-001", "tick": 2}
+{"action": "navigate_pickup", "battery": 97, "event": "NAV_STEP", "location": [2, 0], "mission": "order-001", "tick": 3}
+{"action": "navigate_pickup", "battery": 96, "event": "NAV_STEP", "location": [3, 0], "mission": "order-001", "tick": 4}
+{"action": "navigate_pickup", "battery": 95, "event": "NAV_STEP", "location": [3, 1], "mission": "order-001", "tick": 5}
+{"action": "navigate_pickup", "event": "SKILL_SUCCESS", "mission": "order-001", "tick": 5}
+{"action": "grasp", "event": "SKILL_START", "mission": "order-001", "tick": 5}
+{"action": "grasp", "attempt": 1, "event": "FAULT_INJECTED", "mission": "order-001", "tick": 5}
+{"action": "grasp", "event": "RETRY_SCHEDULED", "mission": "order-001", "next_attempt": 2, "tick": 5}
+{"current": "RECOVERING", "event": "MISSION_PHASE", "mission": "order-001", "previous": "EXECUTING", "reason": "skill retry scheduled", "tick": 5}
+{"current": "EXECUTING", "event": "MISSION_PHASE", "mission": "order-001", "previous": "RECOVERING", "reason": "retry executing", "tick": 6}
+{"action": "grasp", "event": "SKILL_START", "mission": "order-001", "tick": 6}
+{"event": "GRASP_OK", "mission": "order-001", "object_id": "box-A", "tick": 6}
+{"action": "navigate_dropoff", "event": "SKILL_START", "mission": "order-001", "target": [9, 1], "tick": 6}
+{"action": "navigate_dropoff", "battery": 94, "event": "NAV_STEP", "location": [4, 1], "mission": "order-001", "tick": 6}
+{"action": "navigate_dropoff", "battery": 93, "event": "NAV_STEP", "location": [5, 1], "mission": "order-001", "tick": 7}
+{"action": "navigate_dropoff", "battery": 92, "event": "NAV_STEP", "location": [6, 1], "mission": "order-001", "tick": 8}
+{"action": "navigate_dropoff", "battery": 91, "event": "NAV_STEP", "location": [7, 1], "mission": "order-001", "tick": 9}
+{"action": "navigate_dropoff", "battery": 90, "event": "NAV_STEP", "location": [8, 1], "mission": "order-001", "tick": 10}
+{"action": "navigate_dropoff", "battery": 89, "event": "NAV_STEP", "location": [9, 1], "mission": "order-001", "tick": 11}
+{"action": "navigate_dropoff", "event": "SKILL_SUCCESS", "mission": "order-001", "tick": 11}
+{"action": "place", "event": "SKILL_START", "mission": "order-001", "tick": 11}
+{"action": "place", "attempt": 1, "event": "FAULT_INJECTED", "mission": "order-001", "tick": 11}
+{"action": "place", "event": "RETRY_SCHEDULED", "mission": "order-001", "next_attempt": 2, "tick": 11}
+{"current": "RECOVERING", "event": "MISSION_PHASE", "mission": "order-001", "previous": "EXECUTING", "reason": "skill retry scheduled", "tick": 11}
+{"current": "EXECUTING", "event": "MISSION_PHASE", "mission": "order-001", "previous": "RECOVERING", "reason": "retry executing", "tick": 12}
+{"action": "place", "event": "SKILL_START", "mission": "order-001", "tick": 12}
+{"event": "PLACE_OK", "mission": "order-001", "object_id": "box-A", "tick": 12}
+{"event": "VERIFICATION_PASSED", "mission": "order-001", "object_id": "box-A", "tick": 12}
+{"current": "SUCCEEDED", "event": "MISSION_PHASE", "mission": "order-001", "previous": "EXECUTING", "reason": "completion verified", "tick": 12}
+{"event": "MISSION_END", "mission": "order-001", "reason": null, "status": "SUCCESS", "tick": 12}
+{"current": "EXECUTING", "event": "MISSION_PHASE", "mission": "order-002", "previous": "PENDING", "reason": "mission dispatched", "tick": 12}
+{"dropoff": [10, 5], "event": "MISSION_START", "mission": "order-002", "object_id": "box-B", "pickup": [1, 5], "tick": 12}
+{"action": "navigate_pickup", "event": "SKILL_START", "mission": "order-002", "target": [1, 5], "tick": 13}
+{"action": "navigate_pickup", "battery": 88, "event": "NAV_STEP", "location": [8, 1], "mission": "order-002", "tick": 13}
+{"action": "navigate_pickup", "battery": 87, "event": "NAV_STEP", "location": [7, 1], "mission": "order-002", "tick": 14}
+{"action": "navigate_pickup", "battery": 86, "event": "NAV_STEP", "location": [6, 1], "mission": "order-002", "tick": 15}
+{"action": "navigate_pickup", "battery": 85, "event": "NAV_STEP", "location": [5, 1], "mission": "order-002", "tick": 16}
+{"action": "navigate_pickup", "battery": 84, "event": "NAV_STEP", "location": [4, 1], "mission": "order-002", "tick": 17}
+{"action": "navigate_pickup", "battery": 83, "event": "NAV_STEP", "location": [3, 1], "mission": "order-002", "tick": 18}
+{"action": "navigate_pickup", "battery": 82, "event": "NAV_STEP", "location": [3, 2], "mission": "order-002", "tick": 19}
+{"action": "navigate_pickup", "battery": 81, "event": "NAV_STEP", "location": [2, 2], "mission": "order-002", "tick": 20}
+{"action": "navigate_pickup", "battery": 80, "event": "NAV_STEP", "location": [1, 2], "mission": "order-002", "tick": 21}
+{"action": "navigate_pickup", "battery": 79, "event": "NAV_STEP", "location": [1, 3], "mission": "order-002", "tick": 22}
+{"action": "navigate_pickup", "battery": 78, "event": "NAV_STEP", "location": [1, 4], "mission": "order-002", "tick": 23}
+{"action": "navigate_pickup", "battery": 77, "event": "NAV_STEP", "location": [1, 5], "mission": "order-002", "tick": 24}
+{"action": "navigate_pickup", "event": "SKILL_SUCCESS", "mission": "order-002", "tick": 24}
+{"action": "grasp", "event": "SKILL_START", "mission": "order-002", "tick": 24}
+{"event": "GRASP_OK", "mission": "order-002", "object_id": "box-B", "tick": 24}
+{"action": "navigate_dropoff", "event": "SKILL_START", "mission": "order-002", "target": [10, 5], "tick": 24}
+{"action": "navigate_dropoff", "attempt": 1, "event": "FAULT_INJECTED", "mission": "order-002", "tick": 24}
+{"action": "navigate_dropoff", "event": "RETRY_SCHEDULED", "mission": "order-002", "next_attempt": 2, "tick": 24}
+{"current": "RECOVERING", "event": "MISSION_PHASE", "mission": "order-002", "previous": "EXECUTING", "reason": "skill retry scheduled", "tick": 24}
+{"current": "EXECUTING", "event": "MISSION_PHASE", "mission": "order-002", "previous": "RECOVERING", "reason": "retry executing", "tick": 25}
+{"action": "navigate_dropoff", "event": "SKILL_START", "mission": "order-002", "target": [10, 5], "tick": 25}
+{"action": "navigate_dropoff", "battery": 76, "event": "NAV_STEP", "location": [2, 5], "mission": "order-002", "tick": 25}
+{"action": "navigate_dropoff", "battery": 75, "event": "NAV_STEP", "location": [3, 5], "mission": "order-002", "tick": 26}
+{"action": "navigate_dropoff", "battery": 74, "event": "NAV_STEP", "location": [4, 5], "mission": "order-002", "tick": 27}
+{"action": "navigate_dropoff", "battery": 73, "event": "NAV_STEP", "location": [5, 5], "mission": "order-002", "tick": 28}
+{"action": "navigate_dropoff", "battery": 72, "event": "NAV_STEP", "location": [6, 5], "mission": "order-002", "tick": 29}
+{"action": "navigate_dropoff", "battery": 71, "event": "NAV_STEP", "location": [7, 5], "mission": "order-002", "tick": 30}
+{"action": "navigate_dropoff", "battery": 70, "event": "NAV_STEP", "location": [8, 5], "mission": "order-002", "tick": 31}
+{"action": "navigate_dropoff", "battery": 69, "event": "NAV_STEP", "location": [9, 5], "mission": "order-002", "tick": 32}
+{"action": "navigate_dropoff", "battery": 68, "event": "NAV_STEP", "location": [10, 5], "mission": "order-002", "tick": 33}
+{"action": "navigate_dropoff", "event": "SKILL_SUCCESS", "mission": "order-002", "tick": 33}
+{"action": "place", "event": "SKILL_START", "mission": "order-002", "tick": 33}
+{"event": "PLACE_OK", "mission": "order-002", "object_id": "box-B", "tick": 33}
+{"event": "VERIFICATION_PASSED", "mission": "order-002", "object_id": "box-B", "tick": 33}
+{"current": "SUCCEEDED", "event": "MISSION_PHASE", "mission": "order-002", "previous": "EXECUTING", "reason": "completion verified", "tick": 33}
+{"event": "MISSION_END", "mission": "order-002", "reason": null, "status": "SUCCESS", "tick": 33}

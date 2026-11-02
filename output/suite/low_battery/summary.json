@@ -1,0 +1,36 @@
+{
+  "scenario": "Expected safety stop: insufficient initial battery",
+  "result": "FAIL",
+  "successes": 0,
+  "failures": 1,
+  "completion_rate": 0.0,
+  "total_ticks": 1,
+  "mean_mission_ticks": 1,
+  "p95_mission_ticks": 1,
+  "counters": {
+    "robot_steps": 0,
+    "replans": 0,
+    "retries": 0,
+    "faults_injected": 0,
+    "timeouts": 0,
+    "safety_stops": 0
+  },
+  "missions": [
+    {
+      "mission": "battery-1",
+      "status": "FAILURE",
+      "start_tick": 1,
+      "end_tick": 1,
+      "duration_ticks": 1,
+      "reason": "condition failed: safe starting battery"
+    }
+  ],
+  "final_robot_state": {
+    "location": [
+      0,
+      0
+    ],
+    "battery": 5,
+    "carrying": null
+  }
+}

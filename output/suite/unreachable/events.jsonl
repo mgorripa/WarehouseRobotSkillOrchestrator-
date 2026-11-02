@@ -1,0 +1,17 @@
+{"current": "EXECUTING", "event": "MISSION_PHASE", "mission": "wall-1", "previous": "PENDING", "reason": "mission dispatched", "tick": 0}
+{"dropoff": [6, 4], "event": "MISSION_START", "mission": "wall-1", "object_id": "box-1", "pickup": [5, 1], "tick": 0}
+{"action": "navigate_pickup", "event": "SKILL_START", "mission": "wall-1", "target": [5, 1], "tick": 1}
+{"action": "navigate_pickup", "event": "SKILL_FAILURE", "mission": "wall-1", "reason": "unreachable pickup: (5, 1)", "tick": 1}
+{"action": "navigate_pickup", "event": "RETRY_SCHEDULED", "mission": "wall-1", "next_attempt": 2, "tick": 1}
+{"current": "RECOVERING", "event": "MISSION_PHASE", "mission": "wall-1", "previous": "EXECUTING", "reason": "skill retry scheduled", "tick": 1}
+{"current": "EXECUTING", "event": "MISSION_PHASE", "mission": "wall-1", "previous": "RECOVERING", "reason": "retry executing", "tick": 2}
+{"action": "navigate_pickup", "event": "SKILL_START", "mission": "wall-1", "target": [5, 1], "tick": 2}
+{"action": "navigate_pickup", "event": "SKILL_FAILURE", "mission": "wall-1", "reason": "unreachable pickup: (5, 1)", "tick": 2}
+{"action": "navigate_pickup", "event": "RETRY_SCHEDULED", "mission": "wall-1", "next_attempt": 3, "tick": 2}
+{"current": "RECOVERING", "event": "MISSION_PHASE", "mission": "wall-1", "previous": "EXECUTING", "reason": "skill retry scheduled", "tick": 2}
+{"current": "EXECUTING", "event": "MISSION_PHASE", "mission": "wall-1", "previous": "RECOVERING", "reason": "retry executing", "tick": 3}
+{"action": "navigate_pickup", "event": "SKILL_START", "mission": "wall-1", "target": [5, 1], "tick": 3}
+{"action": "navigate_pickup", "event": "SKILL_FAILURE", "mission": "wall-1", "reason": "unreachable pickup: (5, 1)", "tick": 3}
+{"action": "navigate_pickup", "attempts": 3, "event": "RETRIES_EXHAUSTED", "mission": "wall-1", "tick": 3}
+{"current": "FAILED", "event": "MISSION_PHASE", "mission": "wall-1", "previous": "EXECUTING", "reason": "unreachable pickup: (5, 1)", "tick": 3}
+{"event": "MISSION_END", "mission": "wall-1", "reason": "unreachable pickup: (5, 1)", "status": "FAILURE", "tick": 3}

@@ -1,0 +1,5 @@
+{"current": "EXECUTING", "event": "MISSION_PHASE", "mission": "battery-1", "previous": "PENDING", "reason": "mission dispatched", "tick": 0}
+{"dropoff": [5, 0], "event": "MISSION_START", "mission": "battery-1", "object_id": "box-1", "pickup": [2, 0], "tick": 0}
+{"condition": "safe starting battery", "event": "CONDITION_FAILED", "mission": "battery-1", "tick": 1}
+{"current": "FAILED", "event": "MISSION_PHASE", "mission": "battery-1", "previous": "EXECUTING", "reason": "condition failed: safe starting battery", "tick": 1}
+{"event": "MISSION_END", "mission": "battery-1", "reason": "condition failed: safe starting battery", "status": "FAILURE", "tick": 1}

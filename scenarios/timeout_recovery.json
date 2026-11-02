@@ -1,0 +1,11 @@
+{
+  "name": "Expected recovery: navigation timeout followed by resumed progress",
+  "width": 10,
+  "height": 4,
+  "robot": {"location": [0, 0], "battery": 100},
+  "obstacles": [],
+  "objects": [{"id": "box-1", "location": [4, 0]}],
+  "missions": [{"id": "timeout-1", "object_id": "box-1", "pickup": [4, 0], "dropoff": [9, 0]}],
+  "policy": {"nav_timeout_ticks": 3, "retry_budget": 3},
+  "expected_successes": 1
+}

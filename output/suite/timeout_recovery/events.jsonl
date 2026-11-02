@@ -1,0 +1,32 @@
+{"current": "EXECUTING", "event": "MISSION_PHASE", "mission": "timeout-1", "previous": "PENDING", "reason": "mission dispatched", "tick": 0}
+{"dropoff": [9, 0], "event": "MISSION_START", "mission": "timeout-1", "object_id": "box-1", "pickup": [4, 0], "tick": 0}
+{"action": "navigate_pickup", "event": "SKILL_START", "mission": "timeout-1", "target": [4, 0], "tick": 1}
+{"action": "navigate_pickup", "battery": 99, "event": "NAV_STEP", "location": [1, 0], "mission": "timeout-1", "tick": 1}
+{"action": "navigate_pickup", "battery": 98, "event": "NAV_STEP", "location": [2, 0], "mission": "timeout-1", "tick": 2}
+{"action": "navigate_pickup", "battery": 97, "event": "NAV_STEP", "location": [3, 0], "mission": "timeout-1", "tick": 3}
+{"action": "navigate_pickup", "budget": 3, "event": "SKILL_TIMEOUT", "mission": "timeout-1", "tick": 3}
+{"action": "navigate_pickup", "event": "RETRY_SCHEDULED", "mission": "timeout-1", "next_attempt": 2, "tick": 3}
+{"current": "RECOVERING", "event": "MISSION_PHASE", "mission": "timeout-1", "previous": "EXECUTING", "reason": "skill retry scheduled", "tick": 3}
+{"current": "EXECUTING", "event": "MISSION_PHASE", "mission": "timeout-1", "previous": "RECOVERING", "reason": "retry executing", "tick": 4}
+{"action": "navigate_pickup", "event": "SKILL_START", "mission": "timeout-1", "target": [4, 0], "tick": 4}
+{"action": "navigate_pickup", "battery": 96, "event": "NAV_STEP", "location": [4, 0], "mission": "timeout-1", "tick": 4}
+{"action": "navigate_pickup", "event": "SKILL_SUCCESS", "mission": "timeout-1", "tick": 4}
+{"action": "grasp", "event": "SKILL_START", "mission": "timeout-1", "tick": 4}
+{"event": "GRASP_OK", "mission": "timeout-1", "object_id": "box-1", "tick": 4}
+{"action": "navigate_dropoff", "event": "SKILL_START", "mission": "timeout-1", "target": [9, 0], "tick": 4}
+{"action": "navigate_dropoff", "battery": 95, "event": "NAV_STEP", "location": [5, 0], "mission": "timeout-1", "tick": 4}
+{"action": "navigate_dropoff", "battery": 94, "event": "NAV_STEP", "location": [6, 0], "mission": "timeout-1", "tick": 5}
+{"action": "navigate_dropoff", "battery": 93, "event": "NAV_STEP", "location": [7, 0], "mission": "timeout-1", "tick": 6}
+{"action": "navigate_dropoff", "budget": 3, "event": "SKILL_TIMEOUT", "mission": "timeout-1", "tick": 6}
+{"action": "navigate_dropoff", "event": "RETRY_SCHEDULED", "mission": "timeout-1", "next_attempt": 2, "tick": 6}
+{"current": "RECOVERING", "event": "MISSION_PHASE", "mission": "timeout-1", "previous": "EXECUTING", "reason": "skill retry scheduled", "tick": 6}
+{"current": "EXECUTING", "event": "MISSION_PHASE", "mission": "timeout-1", "previous": "RECOVERING", "reason": "retry executing", "tick": 7}
+{"action": "navigate_dropoff", "event": "SKILL_START", "mission": "timeout-1", "target": [9, 0], "tick": 7}
+{"action": "navigate_dropoff", "battery": 92, "event": "NAV_STEP", "location": [8, 0], "mission": "timeout-1", "tick": 7}
+{"action": "navigate_dropoff", "battery": 91, "event": "NAV_STEP", "location": [9, 0], "mission": "timeout-1", "tick": 8}
+{"action": "navigate_dropoff", "event": "SKILL_SUCCESS", "mission": "timeout-1", "tick": 8}
+{"action": "place", "event": "SKILL_START", "mission": "timeout-1", "tick": 8}
+{"event": "PLACE_OK", "mission": "timeout-1", "object_id": "box-1", "tick": 8}
+{"event": "VERIFICATION_PASSED", "mission": "timeout-1", "object_id": "box-1", "tick": 8}
+{"current": "SUCCEEDED", "event": "MISSION_PHASE", "mission": "timeout-1", "previous": "EXECUTING", "reason": "completion verified", "tick": 8}
+{"event": "MISSION_END", "mission": "timeout-1", "reason": null, "status": "SUCCESS", "tick": 8}

@@ -1,0 +1,36 @@
+{
+  "scenario": "Expected failure: repeated grasp faults exhaust retries",
+  "result": "FAIL",
+  "successes": 0,
+  "failures": 1,
+  "completion_rate": 0.0,
+  "total_ticks": 4,
+  "mean_mission_ticks": 4,
+  "p95_mission_ticks": 4,
+  "counters": {
+    "robot_steps": 2,
+    "replans": 0,
+    "retries": 2,
+    "faults_injected": 3,
+    "timeouts": 0,
+    "safety_stops": 0
+  },
+  "missions": [
+    {
+      "mission": "fault-1",
+      "status": "FAILURE",
+      "start_tick": 1,
+      "end_tick": 4,
+      "duration_ticks": 4,
+      "reason": "injected failure: grasp, attempt 3"
+    }
+  ],
+  "final_robot_state": {
+    "location": [
+      2,
+      0
+    ],
+    "battery": 98,
+    "carrying": null
+  }
+}

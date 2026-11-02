@@ -1,0 +1,21 @@
+{"current": "EXECUTING", "event": "MISSION_PHASE", "mission": "fault-1", "previous": "PENDING", "reason": "mission dispatched", "tick": 0}
+{"dropoff": [5, 0], "event": "MISSION_START", "mission": "fault-1", "object_id": "box-1", "pickup": [2, 0], "tick": 0}
+{"action": "navigate_pickup", "event": "SKILL_START", "mission": "fault-1", "target": [2, 0], "tick": 1}
+{"action": "navigate_pickup", "battery": 99, "event": "NAV_STEP", "location": [1, 0], "mission": "fault-1", "tick": 1}
+{"action": "navigate_pickup", "battery": 98, "event": "NAV_STEP", "location": [2, 0], "mission": "fault-1", "tick": 2}
+{"action": "navigate_pickup", "event": "SKILL_SUCCESS", "mission": "fault-1", "tick": 2}
+{"action": "grasp", "event": "SKILL_START", "mission": "fault-1", "tick": 2}
+{"action": "grasp", "attempt": 1, "event": "FAULT_INJECTED", "mission": "fault-1", "tick": 2}
+{"action": "grasp", "event": "RETRY_SCHEDULED", "mission": "fault-1", "next_attempt": 2, "tick": 2}
+{"current": "RECOVERING", "event": "MISSION_PHASE", "mission": "fault-1", "previous": "EXECUTING", "reason": "skill retry scheduled", "tick": 2}
+{"current": "EXECUTING", "event": "MISSION_PHASE", "mission": "fault-1", "previous": "RECOVERING", "reason": "retry executing", "tick": 3}
+{"action": "grasp", "event": "SKILL_START", "mission": "fault-1", "tick": 3}
+{"action": "grasp", "attempt": 2, "event": "FAULT_INJECTED", "mission": "fault-1", "tick": 3}
+{"action": "grasp", "event": "RETRY_SCHEDULED", "mission": "fault-1", "next_attempt": 3, "tick": 3}
+{"current": "RECOVERING", "event": "MISSION_PHASE", "mission": "fault-1", "previous": "EXECUTING", "reason": "skill retry scheduled", "tick": 3}
+{"current": "EXECUTING", "event": "MISSION_PHASE", "mission": "fault-1", "previous": "RECOVERING", "reason": "retry executing", "tick": 4}
+{"action": "grasp", "event": "SKILL_START", "mission": "fault-1", "tick": 4}
+{"action": "grasp", "attempt": 3, "event": "FAULT_INJECTED", "mission": "fault-1", "tick": 4}
+{"action": "grasp", "attempts": 3, "event": "RETRIES_EXHAUSTED", "mission": "fault-1", "tick": 4}
+{"current": "FAILED", "event": "MISSION_PHASE", "mission": "fault-1", "previous": "EXECUTING", "reason": "injected failure: grasp, attempt 3", "tick": 4}
+{"event": "MISSION_END", "mission": "fault-1", "reason": "injected failure: grasp, attempt 3", "status": "FAILURE", "tick": 4}

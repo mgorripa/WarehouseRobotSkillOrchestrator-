@@ -1,0 +1,10 @@
+{
+  "name": "Nominal single-mission fulfillment",
+  "width": 10,
+  "height": 5,
+  "robot": {"location": [0, 0], "battery": 100},
+  "obstacles": [[3, 0], [3, 1]],
+  "objects": [{"id": "box-1", "location": [4, 2]}],
+  "missions": [{"id": "nominal-1", "object_id": "box-1", "pickup": [4, 2], "dropoff": [9, 4]}],
+  "expected_successes": 1
+}

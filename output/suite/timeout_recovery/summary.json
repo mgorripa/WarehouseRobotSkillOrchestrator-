@@ -1,0 +1,36 @@
+{
+  "scenario": "Expected recovery: navigation timeout followed by resumed progress",
+  "result": "PASS",
+  "successes": 1,
+  "failures": 0,
+  "completion_rate": 1.0,
+  "total_ticks": 8,
+  "mean_mission_ticks": 8,
+  "p95_mission_ticks": 8,
+  "counters": {
+    "robot_steps": 9,
+    "replans": 0,
+    "retries": 2,
+    "faults_injected": 0,
+    "timeouts": 2,
+    "safety_stops": 0
+  },
+  "missions": [
+    {
+      "mission": "timeout-1",
+      "status": "SUCCESS",
+      "start_tick": 1,
+      "end_tick": 8,
+      "duration_ticks": 8,
+      "reason": null
+    }
+  ],
+  "final_robot_state": {
+    "location": [
+      9,
+      0
+    ],
+    "battery": 91,
+    "carrying": null
+  }
+}

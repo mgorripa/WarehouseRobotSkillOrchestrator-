@@ -1,0 +1,36 @@
+{
+  "scenario": "Expected failure: goal permanently unreachable",
+  "result": "FAIL",
+  "successes": 0,
+  "failures": 1,
+  "completion_rate": 0.0,
+  "total_ticks": 3,
+  "mean_mission_ticks": 3,
+  "p95_mission_ticks": 3,
+  "counters": {
+    "robot_steps": 0,
+    "replans": 0,
+    "retries": 2,
+    "faults_injected": 0,
+    "timeouts": 0,
+    "safety_stops": 0
+  },
+  "missions": [
+    {
+      "mission": "wall-1",
+      "status": "FAILURE",
+      "start_tick": 1,
+      "end_tick": 3,
+      "duration_ticks": 3,
+      "reason": "unreachable pickup: (5, 1)"
+    }
+  ],
+  "final_robot_state": {
+    "location": [
+      0,
+      0
+    ],
+    "battery": 100,
+    "carrying": null
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Warehouse pick-place: obstacles + transient actuator faults",
+  "width": 12,
+  "height": 7,
+  "robot": {"location": [0, 1], "battery": 100},
+  "obstacles": [[4, 0], [4, 3], [7, 0], [7, 3], [5, 4], [6, 4]],
+  "objects": [
+    {"id": "box-A", "location": [3, 1]},
+    {"id": "box-B", "location": [1, 5]}
+  ],
+  "missions": [
+    {"id": "order-001", "object_id": "box-A", "pickup": [3, 1], "dropoff": [9, 1]},
+    {"id": "order-002", "object_id": "box-B", "pickup": [1, 5], "dropoff": [10, 5]}
+  ],
+  "obstacle_events": {"2": [[2, 1]]},
+  "faults": {
+    "order-001:grasp": [1],
+    "order-001:place": [1],
+    "order-002:navigate_dropoff": [1]
+  },
+  "policy": {"max_ticks": 180, "nav_timeout_ticks": 40, "retry_budget": 3, "min_start_battery": 10},
+  "expected_successes": 2
+}

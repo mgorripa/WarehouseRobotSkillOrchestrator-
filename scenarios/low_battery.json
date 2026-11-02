@@ -1,0 +1,11 @@
+{
+  "name": "Expected safety stop: insufficient initial battery",
+  "width": 6,
+  "height": 4,
+  "robot": {"location": [0, 0], "battery": 5},
+  "obstacles": [],
+  "objects": [{"id": "box-1", "location": [2, 0]}],
+  "missions": [{"id": "battery-1", "object_id": "box-1", "pickup": [2, 0], "dropoff": [5, 0]}],
+  "policy": {"min_start_battery": 10},
+  "expected_successes": 0
+}

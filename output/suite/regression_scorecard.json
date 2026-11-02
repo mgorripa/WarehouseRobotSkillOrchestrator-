@@ -1,0 +1,38 @@
+[
+  {
+    "scenario": "Warehouse pick-place: obstacles + transient actuator faults",
+    "expected_successes": 2,
+    "actual_successes": 2,
+    "checks_passed": true
+  },
+  {
+    "scenario": "Expected failure: repeated grasp faults exhaust retries",
+    "expected_successes": 0,
+    "actual_successes": 0,
+    "checks_passed": true
+  },
+  {
+    "scenario": "Expected safety stop: insufficient initial battery",
+    "expected_successes": 0,
+    "actual_successes": 0,
+    "checks_passed": true
+  },
+  {
+    "scenario": "Nominal single-mission fulfillment",
+    "expected_successes": 1,
+    "actual_successes": 1,
+    "checks_passed": true
+  },
+  {
+    "scenario": "Expected recovery: navigation timeout followed by resumed progress",
+    "expected_successes": 1,
+    "actual_successes": 1,
+    "checks_passed": true
+  },
+  {
+    "scenario": "Expected failure: goal permanently unreachable",
+    "expected_successes": 0,
+    "actual_successes": 0,
+    "checks_passed": true
+  }
+]

@@ -1,0 +1,16 @@
+[project]
+name = "warehouse-skill-orchestrator"
+version = "1.0.0"
+description = "Deterministic, Python-only robot skill orchestration and fault-tolerant validation"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+warehouse-skills = "warehouse_robot.cli:main"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["warehouse_robot*"]

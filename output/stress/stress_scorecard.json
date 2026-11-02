@@ -1,0 +1,12 @@
+{
+  "model": "DISCRETE SOFTWARE SIMULATION ONLY; not physical robot reliability",
+  "seed": 42,
+  "trials": 100,
+  "fault_probability_per_invocation": 0.2,
+  "fully_completed_trials": 96,
+  "full_mission_success_rate": 0.96,
+  "p95_trial_ticks": 33,
+  "mean_trial_ticks": 31.1,
+  "mean_retries": 1.53,
+  "mean_injected_faults": 1.55
+}

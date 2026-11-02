@@ -1,0 +1,2 @@
+mission,status,start_tick,end_tick,duration_ticks,reason
+fault-1,FAILURE,1,4,4,"injected failure: grasp, attempt 3"

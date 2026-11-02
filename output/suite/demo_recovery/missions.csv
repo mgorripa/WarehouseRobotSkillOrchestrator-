@@ -1,0 +1,3 @@
+mission,status,start_tick,end_tick,duration_ticks,reason
+order-001,SUCCESS,1,12,12,
+order-002,SUCCESS,13,33,21,
