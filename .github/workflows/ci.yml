@@ -1,0 +1,33 @@
+
+name: Warehouse Robot CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    name: Python Tests and Simulation Validation
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run unit and integration tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Run scenario regression suite
+        run: python -m warehouse_robot suite
+
+      - name: Run deterministic fault-injection campaign
+        run: |
+          python -m warehouse_robot stress \
+            --trials 100 \
+            --seed 42 \
+            --fault-probability 0.2
